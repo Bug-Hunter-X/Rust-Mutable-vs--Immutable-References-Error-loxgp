@@ -1,0 +1,2 @@
+# Rust Mutable vs. Immutable References
+This example demonstrates a common error in Rust when dealing with mutable and immutable references.  The core issue is attempting to modify a value through an immutable reference, which is forbidden by Rust's borrow checker to prevent data races and ensure memory safety.  The solution shows how to correctly handle mutable references to avoid this error.
